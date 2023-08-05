@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500&display=swap');
+
+:root{
+    --purple-dk: #3d07ba;
+    --fonte-p: 'Work Sans', sans-serif;
+    --fonte-w-logo: 500;
+}
+
+body{
+    font-family: var(--fonte-p);
+    font-weight: var(--fonte-w-logo);
+}
+.btn-outline-success {
+    background-color: var(--purple-dk);
+    border: none;
+    color: white;
+}
+
+.btn-outline-success:hover{
+    background: #3d07ba;
+    opacity: 0.7;
+}
+
